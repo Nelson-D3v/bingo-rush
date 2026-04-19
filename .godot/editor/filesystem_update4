@@ -1,0 +1,12 @@
+res://scenes/ui/ExtraBallDialog.gd
+res://autoloads/GameEvents.gd
+res://scenes/GameScreen.gd
+res://scenes/ui/HUD.gd
+res://scripts/PatternChecker.gd
+res://scenes/Main.tscn
+res://scenes/Main.gd
+res://scenes/components/BingoCard.gd
+res://scenes/ui/WinScreen.gd
+res://scripts/DrawManager.gd
+res://scripts/CardManager.gd
+res://scripts/GameManager.gd

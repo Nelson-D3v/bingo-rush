@@ -1,0 +1,79 @@
+{
+  "version": "1.2.0",
+  "economy": {
+    "card_cost": 1,
+    "max_cards": 4,
+    "starting_coins": 100,
+    "rtp_target": 0.68
+  },
+  "draw": {
+    "total_numbers": 60,
+    "numbers_per_round": 30,
+    "draw_interval_start": 0.30,
+    "draw_interval_end": 0.12,
+    "turbo_interval_seconds": 0.07
+  },
+  "card": {
+    "numbers_per_card": 15,
+    "grid_rows": 3,
+    "grid_cols": 5
+  },
+  "patterns": [
+    {
+      "id": "column",
+      "name": "Coluna",
+      "cells": [
+        [0,5,10],[1,6,11],[2,7,12],[3,8,13],[4,9,14]
+      ],
+      "reward_multiplier": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "line",
+      "name": "Linha",
+      "cells": [
+        [0,1,2,3,4],[5,6,7,8,9],[10,11,12,13,14]
+      ],
+      "reward_multiplier": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "two_lines",
+      "name": "Duas Linhas",
+      "cells": [
+        [0,1,2,3,4,5,6,7,8,9],
+        [0,1,2,3,4,10,11,12,13,14],
+        [5,6,7,8,9,10,11,12,13,14]
+      ],
+      "reward_multiplier": 12,
+      "difficulty": 5
+    },
+    {
+      "id": "full_card",
+      "name": "Cartela Cheia",
+      "cells": [
+        [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+      ],
+      "reward_multiplier": 40,
+      "difficulty": 10
+    }
+  ],
+  "extra_balls": {
+    "base_cost": 2,
+    "cost_multiplier_1_away": 8,
+    "cost_multiplier_2_away": 4,
+    "cost_multiplier_3_away": 2,
+    "max_extra_balls": 5
+  },
+  "events": {
+    "bonus_ball_chance": 0.05,
+    "multiplier_chance": 0.04,
+    "turbo_round_chance": 0.08,
+    "multiplier_values": [1.5, 2.0, 3.0]
+  },
+  "progression": {
+    "xp_per_round": 10,
+    "xp_per_win": 50,
+    "xp_per_level": 200
+  }
+}
