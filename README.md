@@ -8,9 +8,9 @@
 [![GDScript](https://img.shields.io/badge/GDScript-typed-green)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.2.0-orange)](config/game_config.json)
-[![Download](https://img.shields.io/github/v/release/seu-user/bingo-rush?label=download\&color=brightgreen)](https://github.com/seu-user/bingo-rush/releases)
+[![Download](https://img.shields.io/github/v/release/Nelson-D3v/bingo-rush?label=download\&color=brightgreen)](https://github.com/Nelson-D3v/bingo-rush/releases)
 
-[📥 Download](https://github.com/seu-user/bingo-rush/releases) · [Reportar bug](https://github.com/seu-user/bingo-rush/issues) · [Solicitar feature](https://github.com/seu-user/bingo-rush/issues)
+[📥 Download](https://github.com/Nelson-D3v/bingo-rush/releases) · [Reportar bug](https://github.com/Nelson-D3v/bingo-rush/issues) · [Solicitar feature](https://github.com/Nelson-D3v/bingo-rush/issues)
 
 ![Demo do projeto](docs/screenshots/demo.gif)
 
@@ -34,7 +34,7 @@ A maioria dos videobingos exige configuração complexa, depende de servidor ou 
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-user/bingo-rush.git
+git clone https://github.com/Nelson-D3v/bingo-rush.git
 
 # Abra no Godot
 # File → Open Project → selecione a pasta bingo-rush/
@@ -43,7 +43,7 @@ git clone https://github.com/seu-user/bingo-rush.git
 
 Nenhuma dependência externa, nenhum passo extra. O jogo inicia direto na tela de título.
 
-> 💡 **Prefere jogar sem compilar?** Baixe a build já exportada em [Releases](https://github.com/seu-user/bingo-rush/releases).
+> 💡 **Prefere jogar sem compilar?** Baixe a build já exportada em [Releases](https://github.com/Nelson-D3v/bingo-rush/releases).
 
 ---
 
@@ -137,7 +137,7 @@ Padrões de vitória também são definidos no JSON — adicione novos padrões 
 ## 🛠️ Desenvolvimento local
 
 ```bash
-git clone https://github.com/seu-user/bingo-rush.git
+git clone https://github.com/Nelson-D3v/bingo-rush.git
 cd bingo-rush
 
 # Abra no Godot 4 e pressione F5
@@ -198,6 +198,6 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações
 
 Se curtiu o projeto, considera dar uma ⭐ — faz diferença!
 
-Feito com ❤️ por Nelson
+Feito com ❤️ por [Nelson Felix](https://github.com/Nelson-D3v)
 
 </div>
